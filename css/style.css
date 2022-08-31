@@ -1,0 +1,176 @@
+#direitos {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#jon{
+    color: #EC008C;
+    text-decoration: none;
+}
+
+#midias{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+#hr{
+    border: solid 3px #EC008C;
+}
+
+#hr1{
+    border: solid 3px #EC008C;
+    width: 60px;
+}
+
+#midias-texto{
+    margin-top: 20px;
+    color: #EC008C;
+}
+
+#nome-titulo{
+    color: #EC008C;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#nome-titulo:hover{
+    transition-delay: 1s;
+    color: #EC008C;
+    text-shadow: 0 0 10px #e352a8,
+    0 0 20px #e352a8,
+    0 0 40px #e352a8,
+    0 0 80px #e352a8,
+    0 0 160px #e352a8,
+    0 0 240px #e352a8;
+}
+
+#nome-titulo2{
+    color: #EC008C;
+}
+
+#texto-nav{
+    color: #EC008C;
+    font-size: 20px;
+}
+
+#texto-nav-home{
+    color: #EC008C;
+    font-size: 30px;
+}
+
+#servicos{
+    margin-top: 20px;
+}
+
+#titulo-card{
+    color: #EC008C;
+}
+
+#img-card{
+    height: 200px;
+}
+
+#botao{
+    background-color: #ffffff;
+    border: solid 1px #EC008C;
+    color: #EC008C;
+}
+
+#botao:hover{
+    background-color: #EC008C;
+    color: #ffffff;
+}
+
+#botao1{
+    background-color: #ffffff;
+    border: solid 1px #EC008C;
+    color: #EC008C;
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+}
+
+#botao1:hover{
+    background-color: #EC008C;
+    color: #ffffff;
+}
+
+#endereco{
+    border: solid 2px #e352a8;
+    width: 280px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#h5-sobre{
+    text-align: center;
+    padding: 10px;
+    color: #EC008C;
+}
+
+#p-sobre{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #e48bc0;
+}
+
+#h4-contato{
+    text-align: center;
+    padding: 10px;
+    color: #EC008C;
+}
+
+#p-contato{
+    margin-top: -17px;
+    color: #7a6f76;
+}
+
+#p-contato2{
+    margin-top: 60px;
+    font-size: 20px;
+    color: #7a6f76;
+}
+
+#p-contato1{
+   margin-top: 30px;
+    font-size: 25px;
+    color: #e48bc0;
+}
+
+#mapa{
+    width: 600px;
+    height: 450px;
+}
+
+#car-item{
+    width: 100%;
+    height: 400px;
+}
+
+#nome-titulo-ser{
+    color: #EC008C;
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:  415px){
+
+    #mapa{
+        width: 320px;
+        height: 230px;
+    }
+
+}

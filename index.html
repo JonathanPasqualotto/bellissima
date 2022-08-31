@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <meta charset="description" content="Salaão de Estética, Tratamentos Estéticos">
+	  <meta name="keywords" content="estética,estéticos,salão,beleza,feminina">
+	  <meta name="author" content="Programmer Jon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bellíssima</title>
+  </head>
+  <body>
+    
+    <!--Container-->
+    <div class="container">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/hvuelaml.json" trigger="hover" style="width:90px;height:72px"></lord-icon>     
+            <a class="navbar-brand" href="index.html" id="texto-nav-home"><b>Bellíssima</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html" id="texto-nav"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#sobre" id="texto-nav"><b>Sobre a Empresa</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contato" id="texto-nav"><b>Contato</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#depoimento" id="texto-nav"><b>Depoimentos</b></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--Fim Navbar-->
+
+            <div id="p-5 mb-4 bg-light rounded-4">
+              <h1 id="nome-titulo"><b>Bellíssima</b></h1>
+            </div>
+      
+      
+      <!--Carossel-->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./imagens/slide-1.jpg" class="d-block w-100" alt="Ser Linda" title="Ser Linda">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./imagens/slide-2.jpg" class="d-block w-100" alt="Sua Beleza" title="Sua Beleza">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagens/slide-3.jpg" class="d-block w-100" alt="Depoimento" title="Depoimento">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagens/slide-4.jpg" class="d-block w-100" alt="Tratamentos" title="Tratamentos">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+        <!--Fim Carossel-->
+
+        <!--Serviços-->
+        <div class="p-5 mb-4 bg-light rounded-4" id="servicos">
+
+          <div class="row">
+
+            <!--card 1-->
+            <div class="col-lg-4 col-sm-12">
+              <div class="card mb-4 shadow-sm">
+                <img src="./imagens/depilacao.jpg" class="card-img-top" alt="Depilação" id="img-card">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal text-center" id="titulo-card">Depilação a Laser</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">R$119 <small class="text-muted">/ Ses.</small></h1>
+                  <a id="botao" class="btn btn-lg btn-block" href="servico1.html" target="_blank">Solicitar Orçamento</a>
+                </div>
+              </div>
+            </div>
+            <!--fim card-->
+
+            <!--card 2-->
+            <div class="col-lg-4 col-sm-12">
+              <div class="card mb-4 shadow-sm">
+                <img src="./imagens/drenagem.jpg" class="card-img-top" alt="Drenagem" id="img-card">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal text-center" id="titulo-card">Drenagem Linfática</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">R$79,90 <small class="text-muted">/ Ses.</small></h1>
+                  <a id="botao" class="btn btn-lg btn-block" href="servico2.html" target="_blank">Solicitar Orçamento</a>
+                </div>
+              </div>
+            </div>
+            <!--fim card-->
+
+            <!--card 3-->
+            <div class="col-lg-4 col-sm-12">
+              <div class="card mb-4 shadow-sm">
+                <img src="./imagens/massagem.jpg" class="card-img-top" alt="Massagem" id="img-card">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal text-center" id="titulo-card">Massagem Relaxante</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">R$59,90 <small class="text-muted">/ Ses.</small></h1>
+                  <a id="botao" class="btn btn-lg btn-block" href="servico3.html" target="_blank">Solicitar Orçamento</a>
+                </div>
+              </div>
+            </div>
+            <!--fim card-->
+          </div>
+        </div>
+        <!--Fim Serviços-->
+
+      <!--Sobre-->
+      <div class="p-5 mb-4 bg-light rounded-4" id="sobre">
+
+        <div class="row">
+
+          <!--texto-->
+          <div class="col-lg-6 col-sm-12">
+            <h2 id="nome-titulo2"><b>SOBRE NÓS</b></h2>
+            <hr id="hr1">
+            <p> Com mais de 50 prêmios e reconhecimentos de marca,
+            a <b style="color: #EC008C;">Bellissima</b> se destaca da concorrência. 
+            Somos uma rede de clínicas de estética com mais de 13 anos de experiência e excelência na área.
+            Contamos com uma ampla variedade de procedimentos estéticos corporais e faciais, incluindo protocolos exclusivos, 
+            executados por uma equipe de alto padrão.</p>
+
+            <div id="endereco">
+              <h5 id="h5-sobre">Matriz Chapecó</h5>
+              <p id="p-sobre">Av. Nereu Ramos, 3777D</p>
+              <p id="p-sobre">Seminário, Chapecó - SC</p>
+              <p id="p-sobre">89813-000</p>
+            </div>
+          </div>       
+          <!--fim texto-->      
+
+          <!--imagem-->
+          <div class="col-lg-6 col-sm-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4346.241896322477!2d-52.602301401399906!3d-27.134385947854113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b6a18142c0a3%3A0x8b11ef4e1a2c80bd!2sUnoesc%20Chapec%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1661903658872!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+          </div>
+          <!--imagem-->
+
+        </div>
+      </div>
+      <!--Fim Sobre-->
+
+      <!--Contato-->
+      <div class="p-5 mb-4 bg-light rounded-4" id="contato">
+        
+        <div class="row">
+
+          <div class="col-lg-6 col-sm-12">
+            <!--form-->
+            <form>
+              
+                <div class="col-lg-6 col-sm-12">
+                  <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+                </div>
+                <br>
+                <div class="col-lg-6 col-sm-12">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail">
+                </div>
+                <br>
+                <div class="col-lg-6 col-sm-12">
+                  <textarea class="form-control" rows="3" placeholder="Menssagem"></textarea>
+                </div>  
+                <br>
+                <button type="submit" class="btn mb-3" id="botao1">Enviar</button>
+            </form>
+            <!--form-->
+          </div>
+
+          <!--Contato-->
+          <div class="col-lg-6 col-sm-12">
+            <div>
+              <h4 id="h4-contato">Bellissima Clinica Estetica</h4>
+              <p id="p-contato1" class="text-center"><b>(49)3330-2010</b></p>
+              <p id="p-contato" class="text-center">contato@bellissima.com.br</p>
+              <p id="p-contato2" class="text-center"><b>Horário de Atendimento</b></p>
+              <p id="p-contato" class="text-center">Seg. a Sex. das 08h00 às 21:48</p>
+              <p id="p-contato" class="text-center">Sab. das 09h00 às 13h00</p>
+            </div>
+          </div>
+          <!--Contato-->
+        </div>
+
+
+        
+      </div>
+      <!--Fim Contato-->
+
+      <!--Depoimentos-->
+      <div class="p-5 mb-4 bg-light rounded-4" id="depoimento">
+        
+        <!--carossel-->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class=" text-center d-block" id="car-item">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-4 text-center">
+                    <h5>Patricia</h5>
+                    <p>Ótimo Atendimento.</p>
+                  </div>
+                  <div class="col-lg-9 col-sm-8">
+                    <img src="./imagens/img1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class=" text-center d-block" id="car-item">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-4 text-center">
+                    <h5>Marina</h5>
+                    <p>Excelentes Profissionais.</p>
+                  </div>
+                  <div class="col-lg-9 col-sm-8">
+                    <img src="./imagens/img2.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class=" text-center d-block" id="car-item">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-4 text-center">
+                    <h5>Joana</h5>
+                    <p>Espaço Ótimo.</p>
+                  </div>
+                  <div class="col-lg-9 col-sm-8">
+                    <img src="./imagens/img3.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class=" text-center d-block" id="car-item">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-4 text-center">
+                    <h5>Pietra</h5>
+                    <p>Super Recomendo</p>
+                  </div>
+                  <div class="col-lg-9 col-sm-8">
+                    <img src="./imagens/img4.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class=" text-center d-block" id="car-item">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-4">
+                    <h5 class="text-center">Agatha</h5>
+                    <p>Adorei Tudo.</p>
+                  </div>
+                  <div class="col-lg-9 col-sm-8">
+                    <img src="./imagens/img5.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--carossel-->
+
+      </div>
+      <!--Fim Depoimentos-->
+
+
+      <hr id="hr">
+      <!--Rodapé-->
+      <footer>
+
+        <div class="row">
+          <div class="col-lg-3 col-sm-12 ">
+            <h1 id="nome-titulo"><b>Bellíssima</b></h1>
+          </div><!--logo-->
+
+          <div class="col-lg-6 col-sm-12 text-center">
+            <p id="direitos">© 2022 Bellíssima Clínica Estética | Todos os Direitos Reservados</p>
+            <p>Desenvolvido por <a href="https://www.instagram.com/programmerjon/" target="_blank" id="jon">Programmer Jon</a></p>
+          </div><!--Direitos-->
+
+          <div class="col-lg-3 col-sm-12 text-center">
+            <h5 id="midias-texto">Redes Sociais</h5>
+            <a href="https://www.instagram.com/programmerjon/" target="_blank"><img src="./imagens/instagram.png" alt="instagram" id="midias"></a>
+            <a href="https://www.instagram.com/programmerjon/" target="_blank"><img src="./imagens/facebook.png" alt="instagram" id="midias"></a>
+            <a href="https://api.whatsapp.com/send?phone=5549999518551&text=Ol%C3%A1%2C%20Gostaria%20de%20Saber%20Mais%20Sobre%20os%20Servi%C3%A7os" target="_blank"><img src="./imagens/whatsapp.png" alt="whatsapp" id="midias"></a>
+          </div><!--midias-->
+
+        </div>
+      </footer>
+      <!--Fim Rodapé-->
+
+
+    </div>
+    <!--Fim container-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
