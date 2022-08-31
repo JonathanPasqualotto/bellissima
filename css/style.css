@@ -157,6 +157,84 @@
     margin-bottom: 30px;
 }
 
+#img-card-ser{
+    margin-top: 10px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#img-card-ser1{
+    margin-top: 10px;
+    height: 412px;
+    border-radius: 30px;
+}
+
+#img-card-ser2{
+    margin-top: 10px;
+    height: 412px;
+    width: 580px;
+    border-radius: 30px;
+}
+
+#video{
+    width: 85%; 
+    height: 300px;
+}
+
+#li-ser{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #7a6f76;
+}
+
+#li-ser1{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #7a6f76;
+}
+
+#tit-ser{
+    margin-bottom: 40px;
+}
+
+#h3-contato{
+    padding: 10px;
+    color: #EC008C;
+}
+
+#botao-ser{
+    background-color: #ffffff;
+    border: solid 1px #EC008C;
+    margin-top: 30%;
+    margin-left: 20%;
+    color: #EC008C;
+}
+
+#botao-ser:hover{
+    background-color: #EC008C;
+    color: #ffffff;
+}
+
+#botao-modal{
+    background-color: #ffffff;
+    border: solid 1px #EC008C;
+    color: #EC008C;
+}
+
+#botao-modal:hover{
+    background-color: #EC008C;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -171,6 +249,18 @@
     #mapa{
         width: 320px;
         height: 230px;
+    }
+
+    #img-card-ser{
+        margin-top: 10px;
+        width: 380px;
+        border-radius: 30px;
+    }
+    
+    #img-card-ser1{
+        margin-top: 10px;
+        width: 380px;
+        border-radius: 30px;
     }
 
 }
